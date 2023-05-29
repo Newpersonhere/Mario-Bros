@@ -30,7 +30,7 @@ func _input(event):
 		
 	if event.is_action_pressed("ui_left"):
 		sprite.play('walk')
-		sprite.set_flip_h(false)
+		sprite.set_flip_h(True)
 
 func _fixed_process(delta):
 
